@@ -1,5 +1,5 @@
-const apiKey = "Your_API_Key"; // Replace with your actual WeatherStack API key
-const geocodeApiKey = "Your_API_Key"; // OpenCage API Key
+const apiKey = "2a9058218b40a9740ed7db9bae87657f"; // Replace with your actual WeatherStack API key
+const geocodeApiKey = "9e1e6ea65039499bb15e3db89be1d727"; // OpenCage API Key
 
 document.getElementById("getWeather").addEventListener("click", () => {
   const city = document.getElementById("city").value;
